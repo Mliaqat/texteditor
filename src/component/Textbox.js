@@ -38,8 +38,8 @@ export default function Textbox(props) {
 
         <div className="Container" my-3>
         <h1>Text Summary</h1>
-        <p>Total Charter {text.length}</p>
-        <p>Total word {text.split(" ").filter((elemet)=>{return elemet.length !==0 }).length}</p>
+        <h5>Total Charter {text.length}</h5>
+        <h5>Total word {text.split(" ").filter((elemet)=>{return elemet.length !==0 }).length}</h5>
         </div>
         </>
     );
